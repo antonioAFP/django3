@@ -1,3 +1,6 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
 ALL BLOGS TEMPLATE
 
 <h2>Antonio has written {{ blogs.count }} blog{{ blogs.count|pluralize }}</h2>
@@ -10,3 +13,5 @@ ALL BLOGS TEMPLATE
 
 
 {% endfor %}
+
+{% endblock %}
